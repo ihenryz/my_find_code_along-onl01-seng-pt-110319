@@ -1,9 +1,9 @@
 require 'pry'
 
 def my_find(collection)
-  counter = 0 
-  while counter < collection.length 
-  collection[counter] if yield(collection[counter])
-  counter += 1 
+  i = 0 
+  while i < collection.length 
+  collection[i] if yield(collection[i])
+  i += 1 
   end
 end
