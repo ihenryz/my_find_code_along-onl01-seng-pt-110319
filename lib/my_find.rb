@@ -1,5 +1,5 @@
 require 'pry'
 
 def my_find(collection)
- collection [0]
+ binding.pry
 end
